@@ -1,0 +1,105 @@
+*{
+    padding: 0;
+}
+header{
+    margin: auto;
+    background-color: white;
+    width: 1000px;
+    height: 150px;
+}
+header table{
+    margin: auto;
+    display: inline;
+    float: right;
+    padding-top: 40px;
+}
+header table td{
+    padding-right: 10px;
+}
+header table td a{
+    font: normal 18px arial;
+    /*  VER COMO QUEBRAR A LINHA */
+}
+body{
+    background-color: rgba(255, 192, 203, 0.938);   
+}
+main{
+    margin: auto;
+    min-width: 300px;
+    max-width: 1000px;
+    background-color: white;
+}
+#banner{
+    margin: auto;
+    display: block;
+}
+article h2{
+    font: normal 18px arial;
+    color: rgb(163, 24, 48);
+    text-align: center;
+}
+main table td{
+    margin: auto;
+    padding: 2px 15px 2px 15px;
+}
+main table strong{
+    font-size: 20px;
+}
+main table td p{
+    display: inline-table;
+    margin: 0px;    
+    text-align: justify;
+}
+#minilogo{
+    margin: 10px;
+  
+}
+#minilogo strong{
+    color: rgb(163, 24, 48);
+    margin: 10px;
+    font: bold 18px arial;
+ /* colocar o texto ao lado da mini logo */
+}
+#produtos td{
+    text-align: center;
+    font-size: 14px;
+    margin: auto;
+    padding-bottom: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#produtos td p{
+    font-size: 12px;
+}
+#produtos td strong{
+    font-size: 15px;
+}
+footer{
+    margin: auto;
+    background-color: rgb(68, 60, 60);
+    height: 150px;
+}
+footer h1{
+    color:yellow;
+    font-size: 18px;
+    padding: 10px 5px 0px 10px;
+}
+footer p{
+    color: white;
+    padding-left: 10px;
+    line-height: 1px;
+}
+#coluna1{
+    float: left;
+    width: 240px;
+    margin-top: -10px;
+    }
+#coluna2{
+    width: 680px;
+    margin-top: 5px;
+}
+#coluna3{
+    text-align: center;
+    margin-top: -50px;
+    float: right;
+    padding-right: 20px;
+}
