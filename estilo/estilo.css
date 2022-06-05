@@ -38,42 +38,55 @@ article h2{
     color: rgb(163, 24, 48);
     text-align: center;
 }
+main table{
+    margin: auto;
+}
 main table td{
     margin: auto;
-    padding: 2px 15px 2px 15px;
+    text-align: center;
+    /*padding: 2px 15px 2px 15px;*/
 }
 main table strong{
+    padding-left: 3px;
     font-size: 20px;
+    vertical-align:top;
 }
 main table td p{
-    display: inline-table;
-    margin: 0px;    
-    text-align: justify;
+    margin: auto;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
 }
 #minilogo{
     margin: 10px;
-  
+ 
 }
 #minilogo strong{
     color: rgb(163, 24, 48);
-    margin: 10px;
     font: bold 18px arial;
- /* colocar o texto ao lado da mini logo */
+    vertical-align: top;
+}
+#produtos
+{
+    margin: auto;
+
 }
 #produtos td{
     text-align: center;
     font-size: 14px;
     margin: auto;
-    padding-bottom: 0px;
-    font-family: Arial, Helvetica, sans-serif;
+    padding-right: 8px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    line-height: 10px;
 }
 #produtos td p{
     font-size: 12px;
+    text-align: center;
 }
 #produtos td strong{
-    font-size: 15px;
+    font: bold 14px arial;
 }
 footer{
+    font-family: Arial, Helvetica, sans-serif;
     margin: auto;
     background-color: rgb(68, 60, 60);
     height: 150px;
@@ -86,7 +99,7 @@ footer h1{
 footer p{
     color: white;
     padding-left: 10px;
-    line-height: 1px;
+    line-height: 1.4px;
 }
 #coluna1{
     float: left;
